@@ -1,0 +1,29 @@
+{
+  "name": "acejs",
+  "version": "0.0.9",
+  "description": "A simple smart and flexible javascript lib",
+  "main": "gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shelter/acejs.git"
+  },
+  "keywords": [
+    "javascript",
+    "acejs"
+  ],
+  "author": "mason wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shelter/acejs/issues"
+  },
+  "homepage": "https://github.com/shelter/acejs",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
