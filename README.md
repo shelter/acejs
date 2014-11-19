@@ -1,4 +1,4 @@
 acejs
 =====
 
-A simple js lib
+A simple smart and flexible javascript lib.
