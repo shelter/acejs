@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "grunt mochaTest:default"
+    "test": "./node_modules/grunt/bin/grunt mochaTest:default"
   },
   "repository": {
     "type": "git",
