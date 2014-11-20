@@ -4,7 +4,7 @@
  * version: 0.9.0
  * require: jquery.timer.js
  * URL：https://github.com/jchavannes/jquery-timer
- * useage:
+ * usage:
  * var countDown = $(id).CountDown({
  *  startTime {number} 单位秒 默认0
  *  callback {fn} 及时结束后出发函数
@@ -14,7 +14,7 @@
  * countDown.start() 启动倒计时器
  * countDown.pause() 停止倒计时器
  * countDown.stop() 停止并清零倒计时器同时出发callback方法
- * countDown.getUsedTime() 获得已用时间 单位毫秒
+ * countDown.getUsedTime() 获得已用时间 单位秒
  */
 
 (function ($) {
