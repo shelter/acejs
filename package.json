@@ -1,41 +1,42 @@
 {
-    "name": "acejs",
-    "version": "0.0.9",
-    "description": "A simple smart and flexible javascript lib",
-    "main": "gruntfile.js",
-    "directories": {
-        "test": "tests"
-    },
-    "config": {
-        "travis-cov": {
-            "threshold": 100
-        }
-    },
-    "scripts": {
-        "test": "./node_modules/grunt-cli/bin/grunt mochaTest"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/shelter/acejs.git"
-    },
-    "keywords": [
-        "javascript",
-        "acejs"
-    ],
-    "author": "mason wu",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/shelter/acejs/issues"
-    },
-    "homepage": "https://github.com/shelter/acejs",
-    "devDependencies": {
-        "blanket": "^1.1.6",
-        "grunt": "^0.4.5",
-        "grunt-cli": "^0.1.13",
-        "grunt-contrib-jshint": "^0.10.0",
-        "grunt-contrib-uglify": "^0.6.0",
-        "grunt-mocha-test": "^0.12.3",
-        "mocha": "^2.0.1",
-        "travis-cov": "^0.2.5"
+  "name": "acejs",
+  "version": "0.0.9",
+  "description": "A simple smart and flexible javascript lib",
+  "main": "gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "config": {
+    "travis-cov": {
+      "threshold": 100
     }
+  },
+  "scripts": {
+    "test": "./node_modules/grunt-cli/bin/grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shelter/acejs.git"
+  },
+  "keywords": [
+    "javascript",
+    "acejs"
+  ],
+  "author": "mason wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shelter/acejs/issues"
+  },
+  "homepage": "https://github.com/shelter/acejs",
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-mocha-test": "^0.12.3",
+    "mocha": "^2.0.1",
+    "travis-cov": "^0.2.5"
+  }
 }
