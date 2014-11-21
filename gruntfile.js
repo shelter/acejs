@@ -20,11 +20,18 @@ module.exports = function (grunt) {
             }
         },
         mochaTest: {
-            default: {
+            test: {
                 options: {
                     reporter: 'spec',
                     quiet: false, // Optionally suppress output to standard out (defaults to false)
-                    clearRequireCache: false // Optionally clear the require cache before running tests (defaults to false)
+                    clearRequireCache: false, // Optionally clear the require cache before running tests (defaults to false)
+                    require: './node_modules/blanket'
+                },
+                src: ['tests/**/*.js']
+            },
+            coverage: {
+                options: {
+                    reporter: 'travis-cov'
                 },
                 src: ['tests/**/*.js']
             }
